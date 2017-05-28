@@ -8,11 +8,11 @@
 
 **Training / Calibration**  
 
-* Download the simulator and take data in "Training Mode"
-* Test out the functions in the Jupyter Notebook provided
-* Add functions to detect obstacles and samples of interest (golden rocks)
-* Fill in the `process_image()` function with the appropriate image processing steps (perspective transform, color threshold etc.) to get from raw images to a map.  The `output_image` you create in this step should demonstrate that your mapping pipeline works.
-* Use `moviepy` to process the images in your saved dataset with the `process_image()` function.  Include the video you produce as part of your submission.
+* Recorded data was taken  "Training Mode", the data is storded in the "Recorded dataset " zip file. 
+* Original Jupyter Notebook which was provided ran succufely 
+* Functions were added  to detect obstacles and samples of interest (golden rocks)
+* The `process_image()` function was filled with the appropriate image processing steps (perspective transform, color threshold etc.) to get from raw images to a map.  The `output_image` was created, the results  demonstrated that our mapping pipeline works.
+* The  `moviepy` function was used to process the images our saved dataset with the `process_image()` function. Video is included as test_mapping.mp4 you may run the file to check the results of the notebook. (Also to fully run the jupyter notebook kindly note that the calibration folder and recorded dataset zip filed should be uncompressed and in the same folder as the code folder.
 
 **Autonomous Navigation / Mapping**
 
