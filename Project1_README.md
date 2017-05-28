@@ -38,9 +38,8 @@ This write up has been provided.
 
 ### Notebook Analysis
 #### 1. Run the functions provided in the notebook on test images (first with the test data provided, next on data you have recorded). Add/modify functions to allow for color selection of obstacles and rock samples.
--Several functions were added to the original python notebook : 
--Prespective transform with the indicated source and destination point using opencv function warpPrespective and getPrespective.
--Detecting the rock samples : ()
+*Several functions were added to the original python notebook :   
+*Prespective transform with the indicated source and destination point using opencv function warpPrespective and getPrespective.  -Detecting the rock samples : ()
 
 ![alt text][image1]
 ![alt text][image2]
