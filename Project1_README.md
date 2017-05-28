@@ -24,7 +24,7 @@
 
 [image1]: ./reults/img_1.png
 [image2]: ./results/img_2.png
-[image3]: ./calibration_images/example_rock1.jpg 
+[image3]: ./results/img_3.png
 
 ## [Rubric](https://review.udacity.com/#!/rubrics/916/view) Points
 ### Here I will consider the rubric points individually and describe how I addressed each point in my implementation.  
@@ -42,9 +42,13 @@ This write up has been provided.
 *Prespective transform with the indicated source and destination point using opencv function warpPrespective and getPrespective.  
 *Detecting the rock samples:This was done by selcting the pixels between upper and lower RGB threshold (between 60,60,45, and 255,255,0)  
 *Detecting obstacles:This was done by selcting the pixels between  lower RGB threshold of (160,160,160) however a lower threshold was also implemented to not select the black pixels the unknow regiond that is why a lower threshold of (3,3,3) was put in place.  
-*The rotation and translation functions were added based on the formulas provided during the lessons.
+*The rotation and translation functions were added based on the formulas provided during the lessons.  
+You may refer to the below images for the actual results obtained :  
+
 ![alt text][image1]
 ![alt text][image2]
+![alt text][image3]  
+
 #### 1. Populate the `process_image()` function with the appropriate analysis steps to map pixels identifying navigable terrain, obstacles and rock samples into a worldmap.  Run `process_image()` on your test data using the `moviepy` functions provided to create video output of your result. 
 And another! 
 
