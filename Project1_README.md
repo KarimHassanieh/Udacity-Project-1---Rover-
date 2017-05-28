@@ -57,11 +57,13 @@ You may refer to the below images for the actual results obtained :
 ### Autonomous Navigation and Mapping
 
 #### 1. Fill in the `perception_step()` (at the bottom of the `perception.py` script) and `decision_step()` (in `decision.py`) functions in the autonomous mapping scripts and an explanation is provided in the writeup of how and why these functions were modified as they were.
-
+*The prection_step() was filled in basically with most of the function used as used previously in the jupyter notebook only difference is that the Rover.Vision clearly mapped the enviroment under 3 different categories (Rock , obstacle and free space ) you may refer to the below image in the lower left showing this mapping. The simulation for autonomous navigation ran on linux under a resolution of 1024x768 with a graphics quality of "Good"
 
 #### 2. Launching in autonomous mode your rover can navigate and map autonomously.  Explain your results and how you might improve them in your writeup.  
+*The logic behind  the rover is that the Rover starts always with a move forward status, under a maximuim velocity limit.In case the rover finds a lack of navigable terrain (Rov.nav_angles) the rover will start breaking and turn into stop mode. The rover will then steer around until a suffecient navigable terrain is found and will move on forward.My contribution also included in tuning the parameters such as limitation of Rov.nav_angles to determine wether the robot should keep moving forward or stop. Other parameter tuned were also the velocity parameters in order to map most of the area in fastest way possible  
+My end results were able to secure a fidelty of no less then 80% and a mapping above 40% this can be tried in the simulation of the code
+There are number f areas which could be improved most notably the fact that once the rover revists already a mapped area time is lost this is a concept which could be further worked on to improve the results. 
 
-Here I'll talk about the approach I took, what techniques I used, what worked and why, where the pipeline might fail and how I might improve it if I were going to pursue this project further.  
 
 
 
