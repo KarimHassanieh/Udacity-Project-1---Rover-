@@ -39,8 +39,10 @@ This write up has been provided.
 ### Notebook Analysis
 #### 1. Run the functions provided in the notebook on test images (first with the test data provided, next on data you have recorded). Add/modify functions to allow for color selection of obstacles and rock samples.
 *Several functions were added to the original python notebook :   
-*Prespective transform with the indicated source and destination point using opencv function warpPrespective and getPrespective.  -Detecting the rock samples : ()
-
+*Prespective transform with the indicated source and destination point using opencv function warpPrespective and getPrespective.  
+*Detecting the rock samples:This was done by selcting the pixels between upper and lower RGB threshold (between 60,60,45, and 255,255,0)  
+*Detecting obstacles:This was done by selcting the pixels between  lower RGB threshold of (160,160,160) however a lower threshold was also implemented to not select the black pixels the unknow regiond that is why a lower threshold of (3,3,3) was put in place.  
+*The rotation and translation functions were added based on the formulas provided during the lessons.
 ![alt text][image1]
 ![alt text][image2]
 #### 1. Populate the `process_image()` function with the appropriate analysis steps to map pixels identifying navigable terrain, obstacles and rock samples into a worldmap.  Run `process_image()` on your test data using the `moviepy` functions provided to create video output of your result. 
