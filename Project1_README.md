@@ -25,6 +25,8 @@
 [image1]: ./reults/img_1.png
 [image2]: ./results/img_2.png
 [image3]: ./results/img_3.png
+[image4]: ./results/img_4.png
+[image5]: ./results/img_5.png
 
 ## [Rubric](https://review.udacity.com/#!/rubrics/916/view) Points
 ### Here I will consider the rubric points individually and describe how I addressed each point in my implementation.  
@@ -63,6 +65,6 @@ Here I'll talk about the approach I took, what techniques I used, what worked an
 
 
 
-![alt text][image3]
-
+![alt text][image4]
+![alt text][image5]
 
