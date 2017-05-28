@@ -1,10 +1,10 @@
 ## Project: Search and Sample Return
-### Writeup Template: You can use this file as a template for your writeup if you want to submit it as a markdown file, but feel free to use some other method and submit a pdf if you prefer.
+### Readme : This file is meant to guide the reviewer along the steps and methods taken to accomplish the project in hope of clarifying to the reviewer the steps taken with clarity.
 
 ---
 
 
-**The goals / steps of this project are the following:**  
+**The steps of this project are the following:**  
 
 **Training / Calibration**  
 
