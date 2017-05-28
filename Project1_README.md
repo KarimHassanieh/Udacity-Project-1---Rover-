@@ -16,14 +16,14 @@
 
 **Autonomous Navigation / Mapping**
 
-* Fill in the `perception_step()` function within the `perception.py` script with the appropriate image processing functions to create a map and update `Rover()` data (similar to what you did with `process_image()` in the notebook). 
-* Fill in the `decision_step()` function within the `decision.py` script with conditional statements that take into consideration the outputs of the `perception_step()` in deciding how to issue throttle, brake and steering commands. 
-* Iterate on your perception and decision function until your rover does a reasonable (need to define metric) job of navigating and mapping.  
+* The  `perception_step()` function was filled within the `perception.py` script with the appropriate image processing functions to create a map and update `Rover()`. 
+* The  `decision_step()` function within the `decision.py` was tuned for better deicision making . 
+  
 
 [//]: # (Image References)
 
-[image1]: ./misc/rover_image.jpg
-[image2]: ./calibration_images/example_grid1.jpg
+[image1]: ./reults/img_1.png
+[image2]: ./results/img_2.png
 [image3]: ./calibration_images/example_rock1.jpg 
 
 ## [Rubric](https://review.udacity.com/#!/rubrics/916/view) Points
@@ -34,14 +34,16 @@
 
 #### 1. Provide a Writeup / README that includes all the rubric points and how you addressed each one.  You can submit your writeup as markdown or pdf.  
 
-You're reading it!
+This write up has been provided.
 
 ### Notebook Analysis
 #### 1. Run the functions provided in the notebook on test images (first with the test data provided, next on data you have recorded). Add/modify functions to allow for color selection of obstacles and rock samples.
-Here is an example of how to include an image in your writeup.
+-Several functions were added to the original python notebook : 
+-Prespective transform with the indicated source and destination point using opencv function warpPrespective and getPrespective.
+-Detecting the rock samples : ()
 
 ![alt text][image1]
-
+![alt text][image2]
 #### 1. Populate the `process_image()` function with the appropriate analysis steps to map pixels identifying navigable terrain, obstacles and rock samples into a worldmap.  Run `process_image()` on your test data using the `moviepy` functions provided to create video output of your result. 
 And another! 
 
